@@ -1,5 +1,7 @@
 # Bootstrap Boilerplate
 
+## Note to self: NEVER EDIT THIS ON GITHUB!
+
 ## Description
 
 A basic bootstrap boilerplate to start a mobile-friendly website

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Permanent+Marker&display=swap');
+
+.carousel-inner .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-inner .carousel-item:before {
+    content: "";
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+h5 {
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    letter-spacing: .003em;
+    font-size: larger;
+}
+
+
+.carousel-caption-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: khaki;
+}
